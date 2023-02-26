@@ -6,7 +6,6 @@ import styles from './styles.module.css'
 
 export const ListOfMovies = ({ movies }) => {
 
-console.log("render ListOfMovies")
     return (
         <div className={styles.listOfMovies}>
             <>

@@ -16,7 +16,6 @@ export const GenderMovies = ({ movies }) => {
         movie.genres.some(
             (element) => element.toLowerCase() == 'drama'))
 
-    console.log("render GenderMovies")
     return (
         <>
             <p>Drama</p>

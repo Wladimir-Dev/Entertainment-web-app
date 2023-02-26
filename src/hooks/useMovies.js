@@ -19,12 +19,12 @@ export function useMovies() {
 
     const getMovies = async (search) => {
 
-        console.log("render useGetMovies")
         try {
+
             setLoading(true)
             const newMovies = await searchMovies({ search });
-
             setMovies(newMovies)
+
         } catch (error) {
             throw new Error("algo pasa en getMovies")
         }

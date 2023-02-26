@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useId, useRef, useState } from 'react'
+import React, { useCallback, useId, useRef } from 'react'
 import { useMovies } from '../../hooks/useMovies'
 import { GenderMovies } from '../GenderMovies';
 import { NoMovies } from '../NoMovies';
@@ -18,7 +18,6 @@ export const Movies = () => {
 
     const debounceGetMovies = useCallback(
         debounce(search => {
-            console.log("render desde debounce")
             prevSearch.current = search;
             getMovies(search)
         }, 400), [getMovies])
@@ -35,24 +34,24 @@ export const Movies = () => {
         getMovies(textInput)
     }
 
-    const handleInput = (e) => {
-
+    const handleChange = (e) => {
         debounceGetMovies(inputRef.current.value);
-
     }
 
-
-    console.log(inputRef.current.value)
-    loading
-        ? console.log("render movies-loading true")
-        : console.log("render movies-loading false")
 
 
     return (
         <>
             <form onSubmit={handleSubmit}>
                 <label htmlFor={inputId}>lupa</label>
-                <input id={inputId} onChange={handleInput} name="busqueda" type={'text'} ref={inputRef} placeholder="averngers,matrix..." />
+                <input
+                    id={inputId}
+                    onChange={handleChange}
+                    name="busqueda"
+                    type={'text'}
+                    ref={inputRef}
+                    placeholder="averngers,matrix..."
+                />
             </form>
             {
                 loading
