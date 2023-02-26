@@ -1,0 +1,299 @@
+{
+    "status": "ok",
+    "status_message": "Query was successful",
+    "data": {
+        "movie_count": 48599,
+        "limit": 5,
+        "page_number": 1,
+        "movies": [
+            {
+                "id": 49261,
+                "url": "https://yts.mx/movies/battle-for-saipan-2022",
+                "imdb_code": "tt17156822",
+                "title": "Battle for Saipan",
+                "title_english": "Battle for Saipan",
+                "title_long": "Battle for Saipan (2022)",
+                "slug": "battle-for-saipan-2022",
+                "year": 2022,
+                "rating": 5.8,
+                "runtime": 94,
+                "genres": [
+                    "Acción",
+                    "Historia",
+                    "Bélico"
+                ],
+                "summary": "Casper Van Dien (Alita: Battle Angel) and Louis Mandylor (Rambo: Last Blood) star in this edge-of-your-seat WWII epic. On July 7th 1944, a US Army hospital on the remote island of Saipan is overrun by Japanese forces during a relentless attack. Outgunned and surrounded by the enemy, a lone medic (Van Dien) puts it all on the line to lead a band of wounded warriors to safety.—Saban Films",
+                "description_full": "Casper Van Dien (Alita: Battle Angel) and Louis Mandylor (Rambo: Last Blood) star in this edge-of-your-seat WWII epic. On July 7th 1944, a US Army hospital on the remote island of Saipan is overrun by Japanese forces during a relentless attack. Outgunned and surrounded by the enemy, a lone medic (Van Dien) puts it all on the line to lead a band of wounded warriors to safety.—Saban Films",
+                "synopsis": "Casper Van Dien (Alita: Battle Angel) and Louis Mandylor (Rambo: Last Blood) star in this edge-of-your-seat WWII epic. On July 7th 1944, a US Army hospital on the remote island of Saipan is overrun by Japanese forces during a relentless attack. Outgunned and surrounded by the enemy, a lone medic (Van Dien) puts it all on the line to lead a band of wounded warriors to safety.—Saban Films",
+                "yt_trailer_code": "aWfef_JqxLU",
+                "language": "en",
+                "mpa_rating": "R",
+                "background_image": "https://yts.mx/assets/images/movies/battle_for_saipan_2022/background.jpg",
+                "background_image_original": "https://yts.mx/assets/images/movies/battle_for_saipan_2022/background.jpg",
+                "small_cover_image": "https://yts.mx/assets/images/movies/battle_for_saipan_2022/small-cover.jpg",
+                "medium_cover_image": "https://yts.mx/assets/images/movies/battle_for_saipan_2022/medium-cover.jpg",
+                "large_cover_image": "https://yts.mx/assets/images/movies/battle_for_saipan_2022/large-cover.jpg",
+                "state": "ok",
+                "torrents": [
+                    {
+                        "url": "https://yts.mx/torrent/download/7D56115924456D7CD2660C3CB8B009840F48A2B7",
+                        "hash": "7D56115924456D7CD2660C3CB8B009840F48A2B7",
+                        "quality": "720p",
+                        "type": "bluray",
+                        "seeds": 0,
+                        "peers": 0,
+                        "size": "870.78 MB",
+                        "size_bytes": 913079009,
+                        "date_uploaded": "2023-02-25 13:03:19",
+                        "date_uploaded_unix": 1677326599
+                    },
+                    {
+                        "url": "https://yts.mx/torrent/download/23FE81947A7B45840A982C68277BB15680333887",
+                        "hash": "23FE81947A7B45840A982C68277BB15680333887",
+                        "quality": "1080p",
+                        "type": "bluray",
+                        "seeds": 0,
+                        "peers": 0,
+                        "size": "1.75 GB",
+                        "size_bytes": 1879048192,
+                        "date_uploaded": "2023-02-25 14:06:02",
+                        "date_uploaded_unix": 1677330362
+                    }
+                ],
+                "date_uploaded": "2023-02-25 13:03:19",
+                "date_uploaded_unix": 1677326599
+            },
+            {
+                "id": 49259,
+                "url": "https://yts.mx/movies/is-there-a-killer-in-my-family-2020",
+                "imdb_code": "tt11456366",
+                "title": "Is There a Killer in My Family?",
+                "title_english": "Is There a Killer in My Family?",
+                "title_long": "Is There a Killer in My Family? (2020)",
+                "slug": "is-there-a-killer-in-my-family-2020",
+                "year": 2020,
+                "rating": 5,
+                "runtime": 87,
+                "genres": [
+                    "Drama",
+                    "Misterio",
+                    "Suspense"
+                ],
+                "summary": "True-crime author Carly and her husband Kevin take a vacation at a historical mansion on Crawford Island. Kevin thinks it will be a chance for them to reconnect, but Carly plans to research the puzzling unsolved murder of Diana Crawford.",
+                "description_full": "True-crime author Carly and her husband Kevin take a vacation at a historical mansion on Crawford Island. Kevin thinks it will be a chance for them to reconnect, but Carly plans to research the puzzling unsolved murder of Diana Crawford.",
+                "synopsis": "True-crime author Carly and her husband Kevin take a vacation at a historical mansion on Crawford Island. Kevin thinks it will be a chance for them to reconnect, but Carly plans to research the puzzling unsolved murder of Diana Crawford.",
+                "yt_trailer_code": "uAnd8bPe0_8",
+                "language": "en",
+                "mpa_rating": "",
+                "background_image": "https://yts.mx/assets/images/movies/is_there_a_killer_in_my_family_2020/background.jpg",
+                "background_image_original": "https://yts.mx/assets/images/movies/is_there_a_killer_in_my_family_2020/background.jpg",
+                "small_cover_image": "https://yts.mx/assets/images/movies/is_there_a_killer_in_my_family_2020/small-cover.jpg",
+                "medium_cover_image": "https://yts.mx/assets/images/movies/is_there_a_killer_in_my_family_2020/medium-cover.jpg",
+                "large_cover_image": "https://yts.mx/assets/images/movies/is_there_a_killer_in_my_family_2020/large-cover.jpg",
+                "state": "ok",
+                "torrents": [
+                    {
+                        "url": "https://yts.mx/torrent/download/9A5A9962334E7AD3999BBB75708538A6EEDBC739",
+                        "hash": "9A5A9962334E7AD3999BBB75708538A6EEDBC739",
+                        "quality": "720p",
+                        "type": "web",
+                        "seeds": 0,
+                        "peers": 0,
+                        "size": "806.86 MB",
+                        "size_bytes": 846054031,
+                        "date_uploaded": "2023-02-25 06:15:15",
+                        "date_uploaded_unix": 1677302115
+                    },
+                    {
+                        "url": "https://yts.mx/torrent/download/18EEA16F7427F987CB63623C5D87F15BAF95023E",
+                        "hash": "18EEA16F7427F987CB63623C5D87F15BAF95023E",
+                        "quality": "1080p",
+                        "type": "web",
+                        "seeds": 0,
+                        "peers": 0,
+                        "size": "1.46 GB",
+                        "size_bytes": 1567663063,
+                        "date_uploaded": "2023-02-25 07:25:47",
+                        "date_uploaded_unix": 1677306347
+                    }
+                ],
+                "date_uploaded": "2023-02-25 06:15:15",
+                "date_uploaded_unix": 1677302115
+            },
+            {
+                "id": 49258,
+                "url": "https://yts.mx/movies/i-want-a-dog-for-christmas-charlie-brown-2003",
+                "imdb_code": "tt0387301",
+                "title": "I Want a Dog for Christmas, Charlie Brown",
+                "title_english": "I Want a Dog for Christmas, Charlie Brown",
+                "title_long": "I Want a Dog for Christmas, Charlie Brown (2003)",
+                "slug": "i-want-a-dog-for-christmas-charlie-brown-2003",
+                "year": 2003,
+                "rating": 7,
+                "runtime": 0,
+                "genres": [
+                    "Animación",
+                    "Comedia",
+                    "Familiar"
+                ],
+                "summary": "\"I Want a Dog for Christmas, Charlie Brown!\" centers on Rerun, Linus and Lucy's lovable but ever-skeptical younger brother. It's Christmas vacation, and as usual, Rerun's big sister is stressing him out, so he decides to turn to his best friend, Snoopy, for amusement and holiday cheer. However his faithful but unpredictable beagle companion has plans of his own, giving Rerun reason to ask Snoopy to invite his canine brother Spike for a visit. When Spike shows up, it looks like Rerun will have a dog for Christmas after all - but then the real trouble begins.—Mykol Gantt",
+                "description_full": "\"I Want a Dog for Christmas, Charlie Brown!\" centers on Rerun, Linus and Lucy's lovable but ever-skeptical younger brother. It's Christmas vacation, and as usual, Rerun's big sister is stressing him out, so he decides to turn to his best friend, Snoopy, for amusement and holiday cheer. However his faithful but unpredictable beagle companion has plans of his own, giving Rerun reason to ask Snoopy to invite his canine brother Spike for a visit. When Spike shows up, it looks like Rerun will have a dog for Christmas after all - but then the real trouble begins.—Mykol Gantt",
+                "synopsis": "\"I Want a Dog for Christmas, Charlie Brown!\" centers on Rerun, Linus and Lucy's lovable but ever-skeptical younger brother. It's Christmas vacation, and as usual, Rerun's big sister is stressing him out, so he decides to turn to his best friend, Snoopy, for amusement and holiday cheer. However his faithful but unpredictable beagle companion has plans of his own, giving Rerun reason to ask Snoopy to invite his canine brother Spike for a visit. When Spike shows up, it looks like Rerun will have a dog for Christmas after all - but then the real trouble begins.—Mykol Gantt",
+                "yt_trailer_code": "",
+                "language": "en",
+                "mpa_rating": "",
+                "background_image": "https://yts.mx/assets/images/movies/i_want_a_dog_for_christmas_charlie_brown_2003/background.jpg",
+                "background_image_original": "https://yts.mx/assets/images/movies/i_want_a_dog_for_christmas_charlie_brown_2003/background.jpg",
+                "small_cover_image": "https://yts.mx/assets/images/movies/i_want_a_dog_for_christmas_charlie_brown_2003/small-cover.jpg",
+                "medium_cover_image": "https://yts.mx/assets/images/movies/i_want_a_dog_for_christmas_charlie_brown_2003/medium-cover.jpg",
+                "large_cover_image": "https://yts.mx/assets/images/movies/i_want_a_dog_for_christmas_charlie_brown_2003/large-cover.jpg",
+                "state": "ok",
+                "torrents": [
+                    {
+                        "url": "https://yts.mx/torrent/download/06B6C9BBA2F3E57EB68BCF48CF6477E2191DD5D5",
+                        "hash": "06B6C9BBA2F3E57EB68BCF48CF6477E2191DD5D5",
+                        "quality": "720p",
+                        "type": "web",
+                        "seeds": 57,
+                        "peers": 31,
+                        "size": "381.8 MB",
+                        "size_bytes": 400346317,
+                        "date_uploaded": "2023-02-25 07:10:36",
+                        "date_uploaded_unix": 1677305436
+                    },
+                    {
+                        "url": "https://yts.mx/torrent/download/D7EFF2A8ED630E8D619E9AD01CF4699E015D5406",
+                        "hash": "D7EFF2A8ED630E8D619E9AD01CF4699E015D5406",
+                        "quality": "1080p",
+                        "type": "web",
+                        "seeds": 0,
+                        "peers": 0,
+                        "size": "706.13 MB",
+                        "size_bytes": 740430971,
+                        "date_uploaded": "2023-02-25 08:01:39",
+                        "date_uploaded_unix": 1677308499
+                    }
+                ],
+                "date_uploaded": "2023-02-25 07:10:36",
+                "date_uploaded_unix": 1677305436
+            },
+            {
+                "id": 49257,
+                "url": "https://yts.mx/movies/robust-2021",
+                "imdb_code": "tt13667548",
+                "title": "Robust",
+                "title_english": "Robust",
+                "title_long": "Robust (2021)",
+                "slug": "robust-2021",
+                "year": 2021,
+                "rating": 5.7,
+                "runtime": 95,
+                "genres": [
+                    "Comedia"
+                ],
+                "summary": "An aging and disenchanted film star gets a new assistant in the form of a young female security officer.",
+                "description_full": "An aging and disenchanted film star gets a new assistant in the form of a young female security officer.",
+                "synopsis": "An aging and disenchanted film star gets a new assistant in the form of a young female security officer.",
+                "yt_trailer_code": "",
+                "language": "fr",
+                "mpa_rating": "",
+                "background_image": "https://yts.mx/assets/images/movies/robust_2021/background.jpg",
+                "background_image_original": "https://yts.mx/assets/images/movies/robust_2021/background.jpg",
+                "small_cover_image": "https://yts.mx/assets/images/movies/robust_2021/small-cover.jpg",
+                "medium_cover_image": "https://yts.mx/assets/images/movies/robust_2021/medium-cover.jpg",
+                "large_cover_image": "https://yts.mx/assets/images/movies/robust_2021/large-cover.jpg",
+                "state": "ok",
+                "torrents": [
+                    {
+                        "url": "https://yts.mx/torrent/download/3E8988F72BE64C15712E4DC38F31FCF483936220",
+                        "hash": "3E8988F72BE64C15712E4DC38F31FCF483936220",
+                        "quality": "720p",
+                        "type": "web",
+                        "seeds": 0,
+                        "peers": 0,
+                        "size": "831.87 MB",
+                        "size_bytes": 872278917,
+                        "date_uploaded": "2023-02-25 03:40:27",
+                        "date_uploaded_unix": 1677292827
+                    },
+                    {
+                        "url": "https://yts.mx/torrent/download/AE1EE3B97CECA667991716C83A0251A57A85B879",
+                        "hash": "AE1EE3B97CECA667991716C83A0251A57A85B879",
+                        "quality": "1080p",
+                        "type": "web",
+                        "seeds": 0,
+                        "peers": 0,
+                        "size": "1.67 GB",
+                        "size_bytes": 1793148846,
+                        "date_uploaded": "2023-02-25 04:37:38",
+                        "date_uploaded_unix": 1677296258
+                    }
+                ],
+                "date_uploaded": "2023-02-25 03:40:27",
+                "date_uploaded_unix": 1677292827
+            },
+            {
+                "id": 49256,
+                "url": "https://yts.mx/movies/au-revoir-2022",
+                "imdb_code": "tt20416702",
+                "title": "Au Revoir",
+                "title_english": "Au Revoir",
+                "title_long": "Au Revoir (2022)",
+                "slug": "au-revoir-2022",
+                "year": 2022,
+                "rating": 0,
+                "runtime": 0,
+                "genres": [
+                    "Documental",
+                    "Deporte"
+                ],
+                "summary": "From a diffident youth to living legend-this is the story of wakeboarding champion Raph Derome, as he retires from riding in front of crowds and cameras. Au Revoir is the ride of a lifetime.",
+                "description_full": "From a diffident youth to living legend-this is the story of wakeboarding champion Raph Derome, as he retires from riding in front of crowds and cameras. Au Revoir is the ride of a lifetime.",
+                "synopsis": "From a diffident youth to living legend-this is the story of wakeboarding champion Raph Derome, as he retires from riding in front of crowds and cameras. Au Revoir is the ride of a lifetime.",
+                "yt_trailer_code": "ZwFWcdK5pC4",
+                "language": "en",
+                "mpa_rating": "",
+                "background_image": "https://yts.mx/assets/images/movies/au_revoir_2022/background.jpg",
+                "background_image_original": "https://yts.mx/assets/images/movies/au_revoir_2022/background.jpg",
+                "small_cover_image": "https://yts.mx/assets/images/movies/au_revoir_2022/small-cover.jpg",
+                "medium_cover_image": "https://yts.mx/assets/images/movies/au_revoir_2022/medium-cover.jpg",
+                "large_cover_image": "https://yts.mx/assets/images/movies/au_revoir_2022/large-cover.jpg",
+                "state": "ok",
+                "torrents": [
+                    {
+                        "url": "https://yts.mx/torrent/download/B572E42D0D6D253953779E1620340E27D5E7633A",
+                        "hash": "B572E42D0D6D253953779E1620340E27D5E7633A",
+                        "quality": "720p",
+                        "type": "web",
+                        "seeds": 0,
+                        "peers": 0,
+                        "size": "842.65 MB",
+                        "size_bytes": 883582566,
+                        "date_uploaded": "2023-02-25 02:32:26",
+                        "date_uploaded_unix": 1677288746
+                    },
+                    {
+                        "url": "https://yts.mx/torrent/download/9D37FE7ED5C72FB434676DAB82E73A82F17BCC07",
+                        "hash": "9D37FE7ED5C72FB434676DAB82E73A82F17BCC07",
+                        "quality": "1080p",
+                        "type": "web",
+                        "seeds": 0,
+                        "peers": 0,
+                        "size": "1.53 GB",
+                        "size_bytes": 1642824991,
+                        "date_uploaded": "2023-02-25 03:37:48",
+                        "date_uploaded_unix": 1677292668
+                    }
+                ],
+                "date_uploaded": "2023-02-25 02:32:26",
+                "date_uploaded_unix": 1677288746
+            }
+        ]
+    },
+    "@meta": {
+        "server_time": 1677333705,
+        "server_timezone": "CET",
+        "api_version": 2,
+        "execution_time": "0 ms"
+    }
+}
