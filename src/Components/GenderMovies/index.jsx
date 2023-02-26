@@ -1,20 +1,15 @@
 import React, { useEffect, useId, useRef, useState } from 'react'
+import { filterMovies } from '../../utilities/filterMovies'
 import { ListOfMovies } from '../ListOfMovies'
 
 export const GenderMovies = ({ movies }) => {
 
+    const DramaMovies = filterMovies({ movies, gender: "drama" })
 
-    const RomanticMovies = movies.filter(movie =>
-        movie.genres.some(
-            (element) => element.toLowerCase() == 'romance'))
+    const RomanticMovies = filterMovies({ movies, gender: "romance" })
 
-    const ActionMovies = movies.filter(movie =>
-        movie.genres.some(
-            (element) => element.toLowerCase() == 'acción'))
+    const ActionMovies = filterMovies({ movies, gender: "acción" })
 
-    const DramaMovies = movies.filter(movie =>
-        movie.genres.some(
-            (element) => element.toLowerCase() == 'drama'))
 
     return (
         <>

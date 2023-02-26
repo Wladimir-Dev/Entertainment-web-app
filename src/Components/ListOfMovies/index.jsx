@@ -6,6 +6,7 @@ import styles from './styles.module.css'
 
 export const ListOfMovies = ({ movies }) => {
 
+    
     return (
         <div className={styles.listOfMovies}>
             <>
