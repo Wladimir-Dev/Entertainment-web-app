@@ -4,6 +4,11 @@ import { GenderMovies } from '../GenderMovies';
 import { NoMovies } from '../NoMovies';
 import { SearchedMovies } from '../SearchedMovies';
 import debounce from "just-debounce-it";
+import { Loading } from '../Loading';
+import { MdSearch } from "react-icons/md";
+
+
+import styles from './styles.module.css'
 
 export const Movies = () => {
 
@@ -38,31 +43,31 @@ export const Movies = () => {
         debounceGetMovies(inputRef.current.value);
     }
 
-
-
     return (
         <>
-            <form onSubmit={handleSubmit}>
-                <label htmlFor={inputId}>lupa</label>
+            <form onSubmit={handleSubmit} className={styles.form}>
+                <label htmlFor={inputId}><MdSearch/></label>
                 <input
                     id={inputId}
                     onChange={handleChange}
                     name="busqueda"
                     type={'text'}
                     ref={inputRef}
-                    placeholder="averngers,matrix..."
+                    placeholder="Avengers,Matrix..."
                 />
             </form>
-            {
-                loading
-                    ? <p>cargando....</p>
-                    :
-                    hasMovies
-                        ? (inputRef.current?.value == "")
-                            ? <GenderMovies movies={movies.movies} />
-                            : <SearchedMovies movies={movies.movies} search={inputRef.current.value} />
-                        : <NoMovies />
-            }
+            <section className={styles.moviesContainer}>
+                {
+                    loading
+                        ? <Loading />
+                        :
+                        hasMovies
+                            ? (inputRef.current?.value == "")
+                                ? <GenderMovies movies={movies.movies} />
+                                : <SearchedMovies movies={movies.movies} search={inputRef.current.value} />
+                            : <NoMovies />
+                }
+            </section>
         </>
     )
 }

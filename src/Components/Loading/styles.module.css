@@ -1,0 +1,18 @@
+.loading{
+    color: #f9f9f9;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+@keyframes spin {
+    100%{
+        rotate: 1turn;
+    }
+}
+
+.loading >svg{
+    animation: spin 1s infinite linear;
+}

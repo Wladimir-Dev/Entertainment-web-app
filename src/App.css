@@ -1,0 +1,49 @@
+.App {
+    min-width: 320px;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    font-size: var(--font-size-heading-s);
+    font-weight: 400;
+    width: 100%;
+    min-height: 100vh;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--color-semi-dark-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+header>figure>svg {
+    color: red;
+}
+
+header>nav {
+    display: flex;
+    width: 40%;
+}
+
+header>nav>ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+header>nav>ul svg {
+    width: 25px;
+    opacity: 0.5;
+}
+.header-iconUser{
+    width: 25px;
+    opacity: 0.5;
+}

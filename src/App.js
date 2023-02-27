@@ -1,6 +1,9 @@
 import './App.css';
 import { Movies } from './Components/Movies';
-
+import { RxBookmark } from 'react-icons/rx';
+import { SiNetflix } from "react-icons/si";
+import { FaUserCircle } from "react-icons/fa";
+import { MdLocalMovies, MdDeviceUnknown } from "react-icons/md";
 function App() {
 
   console.log("render App")
@@ -9,18 +12,19 @@ function App() {
     <div className="App">
       <header>
 
-        <figure>logo</figure>
+        <figure><SiNetflix /></figure>
 
         <nav>
           <ul>
-            <li>all</li>
-            <li>tendencias</li>
-            <li>Favoritas</li>
+            <li><MdLocalMovies /></li>
+            <li><RxBookmark /></li>
+            <li><MdDeviceUnknown /></li>
           </ul>
         </nav>
 
-        <div>
-          <img src='/' alt='profilepic' />
+        <div className="header-iconUser">
+          {/* <img src='/' alt='profilepic' /> */}
+          <FaUserCircle/>
         </div>
 
       </header>
