@@ -115,8 +115,10 @@
     border-style: none;
 }
 
-.iconSave__active svg {
-    background-color: white;
+.iconSave:hover,
+.iconSave__active {
+ background-color: var(--color-white);
+ color: black; 
 }
 
 .iconSave svg {

@@ -28,10 +28,8 @@ export const ListOfMovies = ({ movies }) => {
     console.log("render listof")
 
     return (
-        <>
-            <p>{savedMovies.length}</p>
-            <div className={`${styles.listOfMovies} ${desktop.listOfMovies}`}>
-                <>
+         <div className={`${styles.listOfMovies} ${desktop.listOfMovies}`}>
+                
                     {movies.map(movie => {
                         return (
                             <div key={movie.id} className={`${styles.movieContainer} ${desktop.movieContainer}`}>
@@ -45,11 +43,12 @@ export const ListOfMovies = ({ movies }) => {
                                         className={`${styles.iconSave} ${isSaved(movie.id) && styles.iconSave__active}`}>
                                         <RxBookmark />
                                     </button>
-                                    <button
+                                    <a
+                                    href={movie.torrents[0].url}
                                         className={`${styles.playContainer} ${desktop.playContainer}`}
                                         type="button">
                                         <CgMagnet /> Torrent
-                                    </button>
+                                    </a>
                                 </figure>
 
                                 <div className={styles.movieDetails}>
@@ -66,9 +65,7 @@ export const ListOfMovies = ({ movies }) => {
                         )
                     })
                     }
-                </>
+                
             </div>
-
-        </>
     )
 }
