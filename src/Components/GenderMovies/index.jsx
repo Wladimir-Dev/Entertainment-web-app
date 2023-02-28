@@ -2,7 +2,7 @@ import React, { useEffect, useId, useRef, useState } from 'react'
 import { filterMovies } from '../../utilities/filterMovies'
 import { ListOfMovies } from '../ListOfMovies'
 
-export const GenderMovies = ({ movies }) => {
+export const GenderMovies = ({ movies}) => {
 
     const DramaMovies = filterMovies({ movies, gender: "drama" })
 

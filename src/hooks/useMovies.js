@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import withResults from '../mocks/withResults.json'
 import { searchMovies } from '../services/searchMovies';
+import { useSavedMovie } from './useSavedMovie';
 
 
 
@@ -10,6 +11,7 @@ export function useMovies() {
 
     const [movies, setMovies] = useState();
     const [loading, setLoading] = useState(false);
+
 
     useEffect(() => {
         getMovies("")
@@ -32,6 +34,8 @@ export function useMovies() {
             setLoading(false);
         }
     }
+
+
 
     return { movies, setMovies, getMovies, loading }
 }

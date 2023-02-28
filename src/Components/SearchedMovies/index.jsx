@@ -6,7 +6,7 @@ export const SearchedMovies = ({ movies, search }) => {
 
     return (
         <>
-            <p>resultados de {search}</p><br></br>
+            <p>Resultados de <b>{search}</b></p><br></br>
             <ListOfMovies movies={movies} />
         </>
     )

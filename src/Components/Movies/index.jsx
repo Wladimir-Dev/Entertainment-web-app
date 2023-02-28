@@ -9,10 +9,13 @@ import { MdSearch } from "react-icons/md";
 
 
 import styles from './styles.module.css'
+import desktop from './desktop.module.css'
 
 export const Movies = () => {
 
     const { movies, getMovies, loading } = useMovies();
+
+
 
     const inputRef = useRef("")
     const prevSearch = useRef("")
@@ -25,7 +28,7 @@ export const Movies = () => {
         debounce(search => {
             prevSearch.current = search;
             getMovies(search)
-        }, 400), [getMovies])
+        }, 700), [getMovies])
 
 
     const handleSubmit = (e) => {
@@ -45,8 +48,8 @@ export const Movies = () => {
 
     return (
         <>
-            <form onSubmit={handleSubmit} className={styles.form}>
-                <label htmlFor={inputId}><MdSearch/></label>
+            <form onSubmit={handleSubmit} className={`${styles.form} ${desktop.form}`}>
+                <label htmlFor={inputId}><MdSearch /></label>
                 <input
                     id={inputId}
                     onChange={handleChange}
@@ -56,6 +59,7 @@ export const Movies = () => {
                     placeholder="Avengers,Matrix..."
                 />
             </form>
+           
             <section className={styles.moviesContainer}>
                 {
                     loading

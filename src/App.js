@@ -1,9 +1,13 @@
-import './App.css';
 import { Movies } from './Components/Movies';
 import { RxBookmark } from 'react-icons/rx';
 import { SiNetflix } from "react-icons/si";
 import { FaUserCircle } from "react-icons/fa";
 import { MdLocalMovies, MdDeviceUnknown } from "react-icons/md";
+
+import './App.css';
+import './App-desktop.css'
+
+
 function App() {
 
   console.log("render App")
