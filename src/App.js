@@ -1,11 +1,12 @@
 import { Movies } from './Components/Movies';
-import { RxBookmark } from 'react-icons/rx';
-import { SiNetflix } from "react-icons/si";
-import { FaUserCircle } from "react-icons/fa";
-import { MdLocalMovies, MdDeviceUnknown } from "react-icons/md";
+
 
 import './App.css';
 import './App-desktop.css'
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import { Menu } from './Components/Menu';
+import { Home } from './Components/Home';
+import { SavedMovies } from './Components/SavedMovies';
 
 
 function App() {
@@ -14,29 +15,15 @@ function App() {
   return (
 
     <div className="App">
-      <header>
 
-        <figure><SiNetflix /></figure>
+      <HashRouter>
+        <Menu />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/savedMovies' element={<SavedMovies />} />
+        </Routes>
+      </HashRouter>
 
-        <nav>
-          <ul>
-            <li><MdLocalMovies /></li>
-            <li><RxBookmark /></li>
-            <li><MdDeviceUnknown /></li>
-          </ul>
-        </nav>
-
-        <div className="header-iconUser">
-          {/* <img src='/' alt='profilepic' /> */}
-          <FaUserCircle/>
-        </div>
-
-      </header>
-
-
-      <main>
-        <Movies />
-      </main>
     </div>
   );
 }

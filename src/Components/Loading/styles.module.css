@@ -14,5 +14,5 @@
 }
 
 .loading >svg{
-    animation: spin 1s infinite linear;
+    animation: spin 0.7s infinite linear;
 }
