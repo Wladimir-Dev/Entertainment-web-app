@@ -7,9 +7,15 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import { Menu } from './Components/Menu';
 import { Home } from './Components/Home';
 import { SavedMovies } from './Components/SavedMovies';
+import { useMovies } from './hooks/useMovies';
+import { useSavedMovie } from './hooks/useSavedMovie';
+import { PruebaPadre } from './Components/PruebaPadre';
+import { PruebaHijo } from './Components/PruebaHijo';
 
 
 function App() {
+
+  const moviesSaved = useSavedMovie();
 
   console.log("render App")
   return (
@@ -19,8 +25,9 @@ function App() {
       <HashRouter>
         <Menu />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/savedMovies' element={<SavedMovies />} />
+          <Route path='/' element={<Home moviesSaved={moviesSaved} />} />
+          <Route path='/savedMovies' element={<SavedMovies moviesSaved={moviesSaved} />} />
+          <Route path="*" element={<h1>no found</h1>} />
         </Routes>
       </HashRouter>
 

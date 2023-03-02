@@ -10,8 +10,9 @@ import { MdSearch } from "react-icons/md";
 
 import styles from './styles.module.css'
 import desktop from './desktop.module.css'
+import { useSavedMovie } from '../../hooks/useSavedMovie';
 
-export const Movies = () => {
+export const Movies = ({moviesSaved}) => {
 
     const { movies, getMovies, loading } = useMovies();
 
@@ -67,8 +68,8 @@ export const Movies = () => {
                         :
                         hasMovies
                             ? (inputRef.current?.value == "")
-                                ? <GenderMovies movies={movies.movies} />
-                                : <SearchedMovies movies={movies.movies} search={inputRef.current.value} />
+                                ? <GenderMovies movies={movies.movies} moviesSaved={moviesSaved}/>
+                                : <SearchedMovies movies={movies.movies} search={inputRef.current.value} moviesSaved={moviesSaved}/>
                             : <NoMovies />
                 }
             </section>

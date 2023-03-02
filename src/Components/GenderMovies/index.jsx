@@ -2,7 +2,7 @@ import React, { useEffect, useId, useRef, useState } from 'react'
 import { filterMovies } from '../../utilities/filterMovies'
 import { ListOfMovies } from '../ListOfMovies'
 
-export const GenderMovies = ({ movies}) => {
+export const GenderMovies = ({ movies,moviesSaved}) => {
 
     const DramaMovies = filterMovies({ movies, gender: "drama" })
 
@@ -14,13 +14,13 @@ export const GenderMovies = ({ movies}) => {
     return (
         <>
             <p>Drama</p>
-            <ListOfMovies movies={DramaMovies} />
+            <ListOfMovies movies={DramaMovies} moviesSaved={moviesSaved} />
 
             <p>Romance</p>
-            <ListOfMovies movies={RomanticMovies} />
+            <ListOfMovies movies={RomanticMovies}  moviesSaved={moviesSaved}/>
 
             <p>Acción</p>
-            <ListOfMovies movies={ActionMovies} />
+            <ListOfMovies movies={ActionMovies}  moviesSaved={moviesSaved}/>
 
 
         </>

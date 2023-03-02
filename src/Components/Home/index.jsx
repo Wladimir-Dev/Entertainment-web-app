@@ -4,11 +4,13 @@ import desktop from './desktop.module.css'
 import { Movies } from '../Movies'
 
 
-export const Home = () => {
+export const Home = ({moviesSaved}) => {
 
     return (
         <main className={`${styles.main} ${desktop.main}`}>
-            <Movies />
+            <Movies moviesSaved={moviesSaved}>
+                
+            </Movies>
         </main>
     )
 }
