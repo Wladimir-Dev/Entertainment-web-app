@@ -7,10 +7,8 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import { Menu } from './Components/Menu';
 import { Home } from './Components/Home';
 import { SavedMovies } from './Components/SavedMovies';
-import { useMovies } from './hooks/useMovies';
 import { useSavedMovie } from './hooks/useSavedMovie';
-import { PruebaPadre } from './Components/PruebaPadre';
-import { PruebaHijo } from './Components/PruebaHijo';
+
 
 
 function App() {

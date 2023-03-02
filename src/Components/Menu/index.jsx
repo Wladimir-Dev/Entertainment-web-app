@@ -28,7 +28,7 @@ export const Menu = () => {
                         <NavLink to={'/SavedMovies'}
                             className={({isActive}) => isActive ? styles.isActive : undefined}>
                     <RxBookmark /></NavLink></li>
-                    <li><MdDeviceUnknown /></li>
+                    {/* <li><MdDeviceUnknown /></li> */}
                 </ul>
             </nav>
 
