@@ -1,5 +1,10 @@
 # Aplicación para buscar y guardar películas
 
+
+![finaaal](https://user-images.githubusercontent.com/73859922/222594160-f1ee0c5a-7739-4e08-9dc4-ffa890ee34d9.jpg)
+
+
+
 API a usar: https://yts.mx/api/v2/list_movies.json?  **No se requiere Api Key**
 
 **React Hooks** empleados:
@@ -9,6 +14,9 @@ API a usar: https://yts.mx/api/v2/list_movies.json?  **No se requiere Api Key**
  - useState
  - useRef
  - useEffect
+
+
+
 
 Otras herramientas o servicios empleados:
 
